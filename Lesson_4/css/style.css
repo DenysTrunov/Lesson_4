@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.woff2") format("woff2"),
+    url("../fonts/Larsseit.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),
+    url("../fonts/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"),
+    url("../fonts/Lato-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"),
+    url("../fonts/Lato-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+a {
+  color: hotpink;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkorange;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  font-family: "Lato", sans-serif;
+}
+.header__title {
+  color: bisque;
+  font-size: 40px;
+}
+.header__content {
+  color: black;
+}
+.header__list li {
+  color: blanchedalmond;
+  list-style: inside;
+}
+.main {
+  font-family: "Roboto", sans-serif;
+}
+.main p {
+  color: brown;
+}
+.main__title {
+  color: blue;
+  font-size: 30px;
+}
+.tribute__title {
+  color: blueviolet;
+}
+.tribute__page {
+  font-family: "Larsseit";
+  color: aqua;
+}
+.title {
+  color: burlywood;
+  font-size: 30px;
+}
+.tribute__list li {
+  list-style: inside;
+  color: cadetblue;
+}
+.tribute ~ p {
+  color: chartreuse;
+}
+.wikipedia {
+  font-family: "Larsseit";
+}
+.wikipedia__title {
+  color: chocolate;
+}
+.wikipedia__list li {
+  list-style: inside;
+  color: cornflowerblue;
+}
+.google {
+  color: crimson;
+}
+.form p {
+  color: cyan;
+}
+.parallax,
+.target {
+  color: darkblue;
+}
+.parallax__list li {
+  list-style: inside;
+}
+.target__list li {
+  list-style: inside;
+}
+.web p {
+  color: darkcyan;
+}
+.portfolio p {
+  color: darkgoldenrod;
+}
+.portfolio__title {
+  color: darkgreen;
+  font-size: 30px;
+}
+.footer {
+  font-family: "Lato", sans-serif;
+}
+.footer__title {
+  font-size: 30px;
+  color: darkmagenta;
+}
+.footer__content {
+  color: darkkhaki;
+}
+.footer__list li {
+  list-style: inside;
+}
